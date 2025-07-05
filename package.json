@@ -1,0 +1,107 @@
+{
+  "id": "c3bdbc47-b696-497f-b7ac-d8c9e2b92853",
+  "name": "@indra.ai/deva.vaisya",
+  "version": "0.0.2",
+  "author": "Quinn Michaels",
+  "license": "MIT",
+  "copyright": "2025",
+  "description": "The Sudra Deva.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indraai/deva.vaisya.git"
+  },
+  "keywords": [
+    "Sudra",
+    "Deva",
+    "Indra.ai",
+    "Deva.space",
+    "Deva.cloud",
+    "Deva.world"
+  ],
+  "bugs": {
+    "url": "https://github.com/indraai/deva.vaisya/issues"
+  },
+  "homepage": "https://deva.space/devas/vaisya",
+  "dependencies": {
+    "@indra.ai/deva": "^1.5.39"
+  },
+  "data": {
+    "agent": {
+      "id": "0aeb0b1d-8fbd-4304-85eb-67a7d1a10ceb",
+      "key": "vaisya",
+      "prompt": {
+        "emoji": "👨‍💼",
+        "text": "Vaisya",
+        "colors": {
+          "label": {
+            "R": 0,
+            "G": 150,
+            "B": 255
+          },
+          "text": {
+            "R": 101,
+            "G": 192,
+            "B": 255
+          }
+        }
+      },
+      "profile": {
+        "name": "Vaisya Deva",
+        "hashtag": "#Vaisya",
+        "title": "Vaisya Deva",
+        "subtitle": "Vaisya Deva build on the philosophy the Vedas.",
+        "describe": "",
+        "post": "Vaisya.",
+        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,VaisyaDeva",
+        "pronouns": "He, Him",
+        "gender": "DEVA",
+        "voice": "ash",
+        "style": "A Vaisya painter and modern style.",
+        "system": "Deva.world.vaisya",
+        "layout": "default",
+        "emoji": "/assets/devas/vaisya/emoji.png",
+        "avatar": "/assets/devas/vaisya/avatar.png",
+        "image": "/assets/devas/vaisya/image.png",
+        "background": "/assets/devas/vaisya/background.png",
+        "creator": "Quinn Michaels",
+        "owner": "Quinn Michaels",
+        "caseid": "FM-20250622-5114",
+        "copyright": "©2025 Quinn Michaels. All rights reserved.",
+        "created": "Saturday, July 5, 2025 - 12:19:30 PM"
+      }
+    },
+    "vars": {
+      "messages": {
+        "init": "🟠 INIT",
+        "start": "🔵 START",
+        "enter": "🟢 ENTER",
+        "stop": "🔴 STOP",
+        "exit": "🟡 EXIT",
+        "done": "🟣 DONE",
+        "error": "💣 ERROR!",
+        "ready": "⭐️ Ready!"
+      },
+      "ask": {
+        "history": []
+      },
+      "art": {
+        "history": []
+      },
+      "context": {
+        "uid": "Vaisya is creating a uid",
+        "status": "Vaisya is viewing the status",
+        "help": "Vaisya is viewing the help",
+        "artist": "Vaisya creating",
+        "live": "Vaisya livechat",
+        "ask": "Vaisya asking",
+        "reply": "Vaisya reply",
+        "comment": "Vaisya comment"
+      }
+    }
+  }
+}

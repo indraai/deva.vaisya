@@ -1,5 +1,5 @@
 {
-  "id": "c3bdbc47-b696-497f-b7ac-d8c9e2b92853",
+  "id": "fcb63d9f-c0f0-40fd-8a80-f6866425525",
   "name": "@indra.ai/deva.vaisya",
   "version": "0.0.3",
   "author": "Quinn Michaels",
@@ -32,7 +32,7 @@
   },
   "data": {
     "agent": {
-      "id": "0aeb0b1d-8fbd-4304-85eb-67a7d1a10ceb",
+      "id": "2247695f-0280-4b60-bb84-8924670c861",
       "key": "vaisya",
       "prompt": {
         "emoji": "👨‍💼",

@@ -1,11 +1,10 @@
-// Copyright (c)2025 Quinn Michaels
-// Wall Deva
+// Copyright (c)2025 Quinn A Michaels
+// Vaisya Deva
 
 import Deva from '@indra.ai/deva';
 import pkg from './package.json' with {type:'json'};
 const {agent,vars} = pkg.data;
 
-import {exec, spawn}  from 'node:child_process';
 // set the __dirname
 import {dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';    
@@ -25,7 +24,7 @@ const info = {
   copyright: pkg.copyright
 };
 
-const WALL = new Deva({
+const VAISYA = new Deva({
   info,
   agent,
   vars,
@@ -34,32 +33,14 @@ const WALL = new Deva({
     parse(input) {return input.trim();},
     process(input) {return input.trim();},
   },
-  listeners: {
-    'devacore:question'(packet) {
-      const question = JSON.stringify(packet.q).replace(/'/, '\'').replace(/"/, '\"');
-      // stub for later features right now just echo into the system process for SIGINT monitoring.
-      exec(`echo "${packet.q.text}"`, (error, stdout, stderr) => {
-        const result = stdout.split('\n');
-        if (error) {
-          console.log('error', error);        
-        }
-        else if (stderr) {
-          console.log('stderr', stderr);
-        }
-      });
-    }
-  },
+  listeners: {},
   modules: {},
   devas: {},
   func: {},
   methods: {},
   onReady(data, resolve) {
     this.prompt(this.vars.messages.ready);
-    this.vars.userinfo = this.lib.os.userInfo();
-
-    console.log('userinfo', this.vars.userinfo);
     return resolve(data);
-    
   },
   onError(data, err, reject) {
     this.prompt(this.vars.messages.error);
@@ -67,4 +48,4 @@ const WALL = new Deva({
     return reject(err);
   },
 });
-export default WALL
+export default VAISYA

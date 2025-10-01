@@ -1,19 +1,23 @@
-// Copyright (c)2025 Quinn Michaels
-// Indra Deva test file
+"use strict";
+// Copyright ©2025 Quinn A Michaels; All rights reserved. 
+// Legal Signature Required For Lawful Use.
+// Distributed under VLA:53817191093555119789 LICENSE.md
+
+// Vaisya Deva test file
 
 const {expect} = require('chai')
-const :key: = require('./index.js');
+const VaisyaDeva = require('./index.js');
 
-describe(indra.me.name, () => {
+describe(VaisyaDeva.me.name, () => {
   beforeEach(() => {
-    return indra.init()
+    return VaisyaDeva.init()
   });
   it('Check the DEVA Object', () => {
-    expect(indra).to.be.an('object');
-    expect(indra).to.have.property('agent');
-    expect(indra).to.have.property('vars');
-    expect(indra).to.have.property('listeners');
-    expect(indra).to.have.property('methods');
-    expect(indra).to.have.property('modules');
+    expect(VaisyaDeva).to.be.an('object');
+    expect(VaisyaDeva).to.have.property('agent');
+    expect(VaisyaDeva).to.have.property('vars');
+    expect(VaisyaDeva).to.have.property('listeners');
+    expect(VaisyaDeva).to.have.property('methods');
+    expect(VaisyaDeva).to.have.property('modules');
   });
 })

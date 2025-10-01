@@ -1,10 +1,39 @@
 {
-  "id": "fcb63d9f-c0f0-40fd-8a80-f6866425525",
+  "id": "53817191093555119789",
   "name": "@indra.ai/deva.vaisya",
   "version": "0.0.27",
-  "author": "Quinn Michaels",
-  "license": "MIT",
-  "copyright": "2025",
+  "license": "VLA:53817191093555119789 LICENSE.md",
+  "VLA": {
+    "uid": "53817191093555119789",
+    "time": 1759334295167,
+    "date": "Wednesday, October 1, 2025 - 8:58:15 AM",
+    "client": "YU6ZN7+9fnPPRFZ8CX4bP46uoWUSyqddILT6l6xeIVI=",
+    "agent": "d7fwNiP0uyc5YQv2UDj7pHe5Xkn+FL5Im0MdUe48nu0=",
+    "core": "wCU8xQhgtQzYDnnNCCGvhlaV3k0bPj0eK2TfJRQbfy4=",
+    "machine": "oQ8BfJzbYn5bUASH+2kVi/ve3NpwOc0DdlfqJ4i2Zz4=",
+    "warning": "⚠️ Vedic Law Sâhasa/Theft/Crime of the highest degree, a fine amounting to no less than a thousand Panas (1 pana = 3.5 grams of gold) is ordained owed to Quinn A Michaels. Moreover corporal punishment and confiscation of the entire property forfeit to Quinn A Michaels is declared to be the punishment for Sâhasa of the highest degree.",
+    "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
+    "md5": "gFhX8/FO0v632H9AH9GtBA==",
+    "sha256": "n++lOUx+nxEI97D7YASw3SwjcAb2jr7nTGnahTlUfc4=",
+    "sha512": "tiHR9fKYX8mM+P3N7rFLG6Ni7zm85MXyfThGeQ31UYCuB72G9OC0WvuJIn7xUQl2swTu3PJUZv/DM5z1ofyNRw=="
+  },
+  "author": {
+    "name": "Quinn A Michaels",
+    "company": "Inside The Net, Inc.",
+    "email": "quinn@indra.ai",
+    "url": "https://indra.ai/"
+  },
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://paypal.me/rahulaclub"
+    },
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/rahulaclub"
+    }
+  ],
+  "copyright": "Copyright ©2025 Quinn A Michaels; All rights reserved.",
   "description": "The Sudra Deva.",
   "main": "index.js",
   "type": "module",
@@ -16,27 +45,30 @@
     "url": "git+https://github.com/indraai/deva.vaisya.git"
   },
   "keywords": [
-    "Sudra",
+    "Vaisya",
     "Deva",
+    "VAisya Deva",
     "Indra.ai",
     "Deva.space",
     "Deva.cloud",
-    "Deva.world"
+    "Deva.world",
+    "Quinn A Michaels",
+    "Inside The Net, Inc."
   ],
   "bugs": {
     "url": "https://github.com/indraai/deva.vaisya/issues"
   },
   "homepage": "https://deva.space/devas/vaisya",
   "dependencies": {
-    "@indra.ai/deva": "^1.8.5"
+    "@indra.ai/deva": "^1.8.6"
   },
   "data": {
     "agent": {
-      "id": "2247695f-0280-4b60-bb84-8924670c861",
+      "id": "67433646537595029449",
       "key": "vaisya",
       "prompt": {
         "emoji": "💼",
-        "text": "Vaisya",
+        "text": "#vaisya",
         "colors": {
           "label": {
             "R": 0,
@@ -51,6 +83,7 @@
         }
       },
       "profile": {
+        "id": "72702883451929155379",
         "name": "Vaisya Deva",
         "hashtag": "#Vaisya",
         "title": "Vaisya Deva",
@@ -71,7 +104,7 @@
         "creator": "Quinn Michaels",
         "owner": "Quinn Michaels",
         "caseid": "FM-20250622-5114",
-        "copyright": "©2025 Quinn Michaels. All rights reserved.",
+        "copyright": "Copyright ©2025 Quinn Michaels. All rights reserved.",
         "created": "Saturday, July 5, 2025 - 12:19:30 PM"
       }
     },
@@ -84,7 +117,7 @@
         "exit": "🟡 EXIT",
         "done": "🟣 DONE",
         "error": "💣 ERROR!",
-        "ready": "⭐️ Ready!"
+        "ready": "✅ Vaisya Deva Ready"
       },
       "ask": {
         "history": []

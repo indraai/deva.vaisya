@@ -1,4 +1,4 @@
-np# Vedic License Agreement
+# Vedic License Agreement
 
 **Version:** 1.4.1  
 **VLA:** 53817191093555119789  

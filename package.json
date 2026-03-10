@@ -38,6 +38,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "latest": "npm i @indra.ai/deva@latest --save",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -60,7 +61,7 @@
   },
   "homepage": "https://deva.space/devas/vaisya",
   "dependencies": {
-    "@indra.ai/deva": "^1.26.0"
+    "@indra.ai/deva": "^1.37.3"
   },
   "data": {
     "agent": {
@@ -90,8 +91,8 @@
         "subtitle": "Vaisya Deva build on the philosophy the Vedas.",
         "describe": "",
         "post": "Vaisya.",
-        "hashtags": "QuinnMichaels,IndraAI,DevaWorld,VaisyaDeva",
-        "pronouns": "He, Him",
+        "hashtags": "#Quinn #QuinnMichaels #InsideTheNet #ThrowingPigment #bleuBrain #IndraAI #DevaWorld #DevaCloud #DevaSpace #Vaisya #VaisyDeva #VaisyaPRIME #RigVeda",
+        "pronouns": "He, Him, His",
         "gender": "DEVA",
         "voice": "ash",
         "style": "A Vaisya painter and modern style.",
@@ -101,11 +102,13 @@
         "avatar": "/assets/devas/vaisya/avatar.png",
         "image": "/assets/devas/vaisya/image.png",
         "background": "/assets/devas/vaisya/background.png",
-        "creator": "Quinn Michaels",
-        "owner": "Quinn Michaels",
-        "caseid": "FM-20250622-5114",
-        "copyright": "Copyright ©2025 Quinn Michaels. All rights reserved.",
-        "created": "Saturday, July 5, 2025 - 12:19:30 PM"
+        "creator": "Quinn A Michaels",
+        "owner": "Quinn A Michaels",
+        "salute": "🤝🫡💼🕉️🇺🇸",
+        "warning": "{{prompt.emoji}} {{profile.name}} declares a VAISYA should MAKE GIFTS, STUDY the VEDAS, perform SACRIFICES, and ACQUIRE WEALTH by FAIR MEANS. The PURE WEALTH PECULIAR to a VAISYA is also DECLARED to be THREEFOLD: what has BEEN ACQUIRED by TILLAGE, by TENDING COWS, and by COMMERCE.",
+        "copyright": "Copyright ©2000-2026 Quinn Michaels. All rights reserved.",
+        "created": "Saturday, July 5, 2025 - 12:19:30 PM",
+        "updated": "Tuesday, March 10, 2026 - 12:50:18 PM"
       }
     },
     "vars": {
